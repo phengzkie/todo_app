@@ -26,8 +26,9 @@ class TodoInput extends Component {
                             editItem 
                             ? "btn btn-block btn-success mt-3" 
                             : "btn btn-block btn-primary mt-3"
-                        }>
-                            {editItem ? 'Edit Todo' : 'Add Todo'}
+                        }
+                    >
+                        {editItem ? 'Edit Todo' : 'Add Todo'}
                     </button>
                 </form>
             </div>
